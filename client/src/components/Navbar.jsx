@@ -3,6 +3,8 @@ import { AiOutlineClose } from 'react-icons/ai'
 import logo from '../../images/logo.png'
 import { useState } from 'react'
 
+//dem smart contracts don't really work:\ pretty sad oh well..
+
 const NavbarItem = ({ title, classProps }) => {
   return (
     <li className={`mx-4 cursor-pointer ${classProps}`}>
